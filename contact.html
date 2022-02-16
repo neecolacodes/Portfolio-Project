@@ -71,71 +71,99 @@
         </div>
       </div>
     </nav>
-
-    <h1 class="text-center">Contact Me</h1>
-    <h3 class="text-center">& Let's Get Coding!</h3>
-
-    <div class="text-center">
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-instagram-square"></i>
-
-      <div class="about-paragraphs text-center">
-        <p>
-          Got a question, proposal or project you'd like me to work on? Feel
-          free to reach out.
-        </p>
-      </div>
-    </div>
     <div class="container">
-      <form
-        target="_blank"
-        action="https://formsubmit.co/cybulski.nja@gmail.com"
-        method="POST"
-      >
-        <div class="form-group">
-          <div class="form-row">
-            <div class="col">
-              <input
-                type="text"
-                name="name"
-                class="form-control"
-                placeholder="Full Name"
-                required
-              />
-            </div>
-            <div class="col">
-              <input
-                type="email"
-                name="email"
-                class="form-control"
-                placeholder="Email Address"
-                required
-              />
-            </div>
-          </div>
+      <h1 class="text-center">Contact Me</h1>
+      <h3 class="text-center text-muted">& Let's Get Coding!</h3>
+      <div class="contact-box">
+        <div class="about-paragraphs text-center">
+          <p>
+            If you're interested in working with me or have a question, feel
+            free to reach out!
+          </p>
         </div>
-        <div class="form-group">
-          <textarea
-            placeholder="Your Message"
-            class="form-control"
-            name="message"
-            rows="10"
-            required
-          ></textarea>
+        <div class="container">
+          <form
+            target="_blank"
+            action="https://formsubmit.co/cybulski.nja@gmail.com"
+            method="POST"
+          >
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control mt-1"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group mt-1">
+              <textarea
+                placeholder="Your Message"
+                class="form-control"
+                name="message"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Portfolio Inquiry!"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://xenodochial-wozniak-9a1a3e.netlify.app/thankyou.html"
+            />
+            <button type="submit" class="btn btn-sm submit-button mt-1">
+              Submit
+            </button>
+          </form>
         </div>
-        <input type="hidden" name="_subject" value="New Portfolio Inquiry!" />
-        <input
-          type="hidden"
-          name="_next"
-          value="https://xenodochial-wozniak-9a1a3e.netlify.app/thankyou.html"
-        />
-        <button type="submit" class="btn btn-sm submit-button">Submit</button>
-      </form>
+      </div>
       <div class="navigation-links mb-5">
         <a href="index.html" class="primary-link" title="Homepage">Homepage</a>
         <a href="projects.html" class="secondary-link" title="Projects Page"
           >My Projects</a
         >
+      </div>
+      <div class="container">
+        <footer>
+          <div class="social-links d-flex justify-content-center">
+            <a
+              href="https://www.instagram.com/neecola_/"
+              target="_blank"
+              title="instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://github.com/neecolacodes"
+              target="_blank"
+              title="github"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="www.linkedin.com/in/nicole-cybulski-000"
+              target="_blank"
+              title="linkedin"
+            >
+              <i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </footer>
       </div>
     </div>
     <script
