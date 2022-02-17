@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px !important;
+  margin-top: 150px !important;
   background: #f9f7fe;
 }
 
@@ -130,7 +130,11 @@ footer .social-links a:hover {
 
 .contact-box {
   background: var(--secondary-color);
-  padding: 30px 120px;
+  padding: 30px 100px;
   border-radius: 10px;
   margin: 50px;
+}
+
+.welcome-hand {
+  color: var(--primary-color);
 }
