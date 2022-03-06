@@ -41,7 +41,7 @@ h3 {
 
 p {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   color: rgba(39, 33, 66, 0.7);
@@ -109,15 +109,16 @@ footer .social-links a:hover {
   margin: 10px 60px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
+.footer-code {
+  font-size: 12px !important;
+}
+
+.code-link {
   color: var(--primary-color);
-  font-size: 28px;
   text-decoration: none;
 }
 
-.email-link:hover {
+.code-link:hover {
   text-decoration: underline;
 }
 
