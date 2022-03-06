@@ -135,6 +135,45 @@ footer .social-links a:hover {
   margin: 50px;
 }
 
-.welcome-hand {
-  color: var(--primary-color);
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  p {
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+  .contact-box {
+    padding: 30px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 900px) {
+  h1 {
+    font-size: 50px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 20px;
+  }
+  .project-img {
+    max-width: 75% !important;
+  }
+  .contact-box {
+    padding: 30px;
+    margin: 10px;
+  }
 }
